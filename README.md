@@ -1,4 +1,6 @@
-# Vite + React + TypeScript + Tailwind + Airbnb + Husky
+# Advice Generator App
+
+## Vite + React + TypeScript + Tailwind + Airbnb + Husky
 
 A modern minimal Vite + React + TypeScript + Tailwind template with pre-configured ESLint (with Airbnb JS/React rules), Prettier and Git hooks powered by Husky out of the box 📦
 
@@ -19,7 +21,7 @@ A modern minimal Vite + React + TypeScript + Tailwind template with pre-configur
 ## Usage
 
 ```bash
-cd vite-react-ts-tw-airbnb-husky-template
+cd advice-generator
 
 # Required if you want a repository and work with Git hooks
 git init
@@ -73,7 +75,3 @@ Serve production build locally
 - [Airbnb JS Style Guide](https://github.com/airbnb/javascript)
 - [Airbnb React Style Guide](https://github.com/airbnb/javascript/tree/master/react)
 - [Husky](https://github.com/typicode/husky)
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
