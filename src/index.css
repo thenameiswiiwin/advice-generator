@@ -4,10 +4,16 @@
 
 @layer base {
   body {
-    @apply bg-secondary-100 font-sans text-bodySm text-primary-100 lg:text-bodyLg;
+    @apply bg-secondary-100 font-sans text-bodySm font-extrabold text-primary-100 lg:text-bodyLg;
   }
 
   h1 {
-    @apply text-titleSm text-primary-200 lg:text-titleLg;
+    @apply text-titleSm uppercase tracking-widest text-primary-200 lg:text-titleLg;
+  }
+}
+
+@layer utilities {
+  .btn {
+    @apply absolute -bottom-8 rounded-full bg-primary-200 p-5 shadow-hoverShadow transition-shadow hover:shadow-primary-200;
   }
 }
