@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-secondary-100 font-sans text-bodySm text-primary-100 lg:text-bodyLg;
+  }
+
+  h1 {
+    @apply text-titleSm text-primary-200 lg:text-titleLg;
+  }
+}
