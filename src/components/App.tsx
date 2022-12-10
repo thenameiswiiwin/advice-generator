@@ -1,5 +1,5 @@
 import Dice from '../assets/images/icon-dice.svg';
-import { MobileDivider, DesktopDivider } from '../assets/index';
+import { MobileDivider } from '../assets/index';
 
 const App = () => {
   return (
